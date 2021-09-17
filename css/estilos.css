@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite; }
+
+#portada {
+  min-height: 90vh;
+  background: url(/img/Bg-index1.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+#portada {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.texto-home {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  color: grey; }
+
+.texto-home:hover {
+  color: #db65a2; }
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 500px; }
+
+#galeria img:hover {
+  border: 5px solid #f7f7f7; }
+
+.copy {
+  display: flex;
+  justify-content: center;
+  font-size: 14px; }
